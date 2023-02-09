@@ -24,3 +24,6 @@ else: #must be 10
 
 for i in range(total):
 	print(i)
+
+for i in range(4):
+	
