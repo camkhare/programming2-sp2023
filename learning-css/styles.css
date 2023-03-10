@@ -1,0 +1,34 @@
+/*  
+  *{
+	color: #0384fc;
+	background-color: black;
+	font-size: 30px;
+	text-align: center;
+	margin: 40px;
+}
+
+h1 {
+  border: 5px solid white;
+}
+
+p {
+  border: 4px dotted white;
+  text-align: left;
+}
+
+div {
+  border: double;
+}*/
+
+.service-change {
+	font-weight: bolder;
+	color: red;
+}
+
+.normal-change {
+	color: green;
+}
+
+.all-trains {
+	font-size: 45px;
+}

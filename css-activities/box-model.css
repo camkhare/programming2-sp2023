@@ -1,0 +1,20 @@
+#content {
+width:550px ; 
+height:350px ;
+background-color:blue ;
+padding-left: 75px;
+padding-right: 75px;
+padding-top:87.5px ;
+padding-bottom: 87.5px;
+border:25px green solid;
+margin-left:175px ;
+margin-right:175px ;
+margin-top:62.5px ;
+margin-bottom:62.5px ;
+}
+
+.container {
+width:1100px ;
+height:700px;
+background-color:red ;
+}

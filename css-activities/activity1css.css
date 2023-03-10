@@ -1,0 +1,15 @@
+div {
+	font-size: 36px;
+	background-color: red;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+
+.center {
+  scroll-margin-top: 25%;
+}
+
+#myGreatButton {
+ 	color: blue;
+}
