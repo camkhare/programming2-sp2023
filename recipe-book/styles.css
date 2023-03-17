@@ -1,0 +1,87 @@
+body{
+	background-color:#5D5C61 ;
+	font-family: Times New Roman;
+}
+
+.title{
+	color:#557A95 ;
+	font-size: 60px;
+	text-align: center;
+}
+.caption{
+	color: grey;
+	text-align: center ;
+}
+.sub-heading{
+	color: #7395AE;
+	font-size: 36px;
+	text-decoration: underline;
+	text-align: center ;
+}
+
+.sub-sub-heading{
+	color: #7395AE;
+	font-size: 24px;
+	text-align: center ;
+}
+.summary{
+	color: white;
+	text-align: center ;
+	margin-left:auto;
+  	margin-right: auto;
+  	margin-left:250px;
+  	margin-right: 250px;
+  	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	border:5px solid #B1A296;
+}
+
+#summary2{
+	color: white;
+	text-align: center ;
+	margin-left:auto;
+  	margin-right: auto;
+  	margin-left:250px;
+  	margin-right: 250px;
+  	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	border:5px solid #B1A296;
+}
+
+.ingredients{
+	color: white;
+	text-align: center ;
+	margin-left:auto;
+  	margin-right: auto;
+  	margin-left:250px;
+  	margin-right: 250px;
+  	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	border:5px solid #B1A296;
+}
+.directions{
+	color:white ;
+	text-align: center ;
+	margin-left:auto;
+  	margin-right: auto;
+  	margin-left:250px;
+  	margin-right: 250px;
+  	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	border:5px solid #B1A296;
+}
+.source{
+	color: grey;
+	text-align: center ;
+}
+img{
+	display: block;
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 40%;
+	height: auto;
+}
