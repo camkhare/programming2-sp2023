@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BlackJack</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="top">
+		<h1 class="title"> BlackJack </h1>
+		<button class="main-button" onclick="hit()" disabled = "true" id = "hit">Hit</button>
+		<button class="main-button" onclick="stay()" disabled = "true" id = "stand">Stand</button>
+	</div>
+<h1 id = "user-cards">User Cards: </h1>
+<h1 id = "dealer-cards">Dealer Cards: </h1>
+<h1 id = "user-sum">Sum of your cards: </h1>
+	<div class="bottom">
+		<button class="side-button" onclick="reset()">Reset</button>
+		<button class="side-button" onclick="openInstructions()">Instructions</button>
+	</div>
+
+	<!-- The Modal -->
+<div id="myModal" class="modal">
+
+ <!-- Modal content -->
+ <div class="modal-content">
+   <span id="close" onclick="closeInstructions()">&times;</span>
+   <h1 class="instructions-title"> Instructions </h1>
+   <ol>
+   	<li>The objective of blackjack is to get a hand value closer to 21 than the dealer's hand value without going over 21. </li>
+	<li> Players are dealt two cards, and the dealer is dealt one card face up and one card face down.</li>
+	<li>Players can choose to "hit" (get another card) or "stand" (keep their current hand) until they are satisfied with their hand value or go over 21 (bust). </li>
+	<li>The dealer must hit until their hand value is 17 or higher, and then must stand. </li>
+	<li>If the player's hand value is higher than the dealer's and does not exceed 21, the player wins. If the dealer's hand value is higher than the player's, the player loses. </li>
+	<li>Aces can be worth 1 or 11 points, face cards (J, Q, K) are worth 10 points, and numbered cards are worth their face value. </li>
+	<li>If the player's initial two cards are an ace and a 10-point card, they have a blackjack and automatically win 1.5 times their original bet.</li>
+	</ol>
+ </div>
+
+</div>
+
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

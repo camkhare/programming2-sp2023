@@ -1,0 +1,93 @@
+body{
+    background-color:#5D5C61;
+    color:#557A95 ;
+    font-family:Copperplate;
+}
+.title {
+	text-align: center;
+
+}
+.instructions-title {
+    text-align: center;
+}
+
+.main-button {
+	background: white;
+  border: 1px solid black;
+  display: block;
+  margin-left:24px ;
+  margin-right: 24px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #7395AE;
+  font-family:Copperplate;
+}
+.side-button {
+	background: white;
+  border: 1px solid black;
+  display: block;
+  font-size: 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #7395AE;
+  font-family:Copperplate;
+}
+
+#bottom {
+  align-items: space-between;
+}
+.button {
+    display: flex;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: white;
+  color: black;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+#close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#user-cards {
+  text-align: center;
+}
+
+#dealer-cards {
+  text-align: center;
+}
+
+#user-sum {
+  text-align: center;
+}
