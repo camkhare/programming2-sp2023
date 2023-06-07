@@ -1,0 +1,61 @@
+.title {
+	border: 5px solid;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 10px ;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 62px;
+	margin: 7px;
+	margin-left: 45px ;
+	margin-right: 45px;
+}
+h5{
+	font-size: 20px;
+	margin: 7px;
+	margin-left: 45px ;
+	margin-right: 45px;
+
+}
+
+.middle-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+img {
+	width: 500px;
+	height: auto;
+}
+
+.head-section {
+	display: flex;
+	flex-direction: column;
+	border: 5px solid;
+	text-align: center;
+	align-items: flex-start;
+	padding: 10px;
+}
+
+.club-section{
+	display: flex;
+	flex-direction: column;
+	border: 5px solid;
+	text-align: center;
+	align-items: flex-start;
+	padding: 10px;
+}
+
+.bottom-row {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+p{
+	font-size: 18px;
+}
